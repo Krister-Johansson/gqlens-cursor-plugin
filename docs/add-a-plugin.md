@@ -40,7 +40,7 @@ Add only the components you need:
 - `agents/*.md` (YAML frontmatter required)
 - `commands/*.(md|mdc|markdown|txt)` (frontmatter recommended)
 - `hooks/hooks.json` and `scripts/*` for automation hooks
-- `mcp.json` for MCP server definitions (do not use `.mcp.json`)
+- `mcp.json` for MCP server definitions
 - `assets/logo.svg` for marketplace display
 
 ## 3. Register in marketplace manifest
@@ -72,5 +72,5 @@ Fix all reported errors before committing.
 - Missing `.cursor-plugin/plugin.json` in plugin folder.
 - Missing frontmatter keys (`name`, `description`) in skills, agents, or commands.
 - Rule files missing frontmatter `description`.
-- Using `.mcp.json` instead of `mcp.json` for MCP server definitions.
+- Using a filename other than `mcp.json` for MCP server definitions.
 - Broken relative paths for `logo`, `hooks`, or `mcpServers` in manifest files.

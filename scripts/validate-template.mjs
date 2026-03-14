@@ -350,15 +350,7 @@ async function main() {
     }
 
     const mcpPath = path.join(pluginDir, "mcp.json");
-    const legacyMcpPath = path.join(pluginDir, ".mcp.json");
-    const hasMcp = await pathExists(mcpPath);
-    const hasLegacyMcp = await pathExists(legacyMcpPath);
-
-    if (hasLegacyMcp) {
-      addWarning(`${entry.name}: found .mcp.json; rename it to mcp.json.`);
-    }
-
-    if (!hasMcp) {
+    if (!(await pathExists(mcpPath))) {
       addWarning(`${entry.name}: no mcp.json file found (only needed when using MCP servers).`);
     }
   }

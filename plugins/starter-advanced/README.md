@@ -10,4 +10,4 @@ Full-featured Cursor plugin starter.
 - `commands/`: deploy-staging command
 - `hooks/hooks.json`: hook definitions
 - `scripts/`: hook script placeholders
-- `mcp.json`: MCP server config (do not use `.mcp.json`)
+- `mcp.json`: MCP server config
