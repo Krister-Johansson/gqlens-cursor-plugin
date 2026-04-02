@@ -1,0 +1,13 @@
+{
+  "name": "gqlens",
+  "displayName": "GQLens",
+  "version": "0.1.0",
+  "description": "GraphQL schema intelligence MCP server. Explore schemas, search types semantically, generate queries, and validate operations — all from your editor.",
+  "author": {
+    "name": "Flexmatic",
+    "email": "krister@flexmatic.io"
+  },
+  "license": "MIT",
+  "keywords": ["graphql", "mcp", "schema", "introspection", "api", "query-builder"],
+  "logo": "assets/logo.svg"
+}

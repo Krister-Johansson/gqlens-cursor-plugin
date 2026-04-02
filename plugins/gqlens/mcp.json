@@ -1,0 +1,6 @@
+{
+  "gqlens": {
+    "type": "http",
+    "url": "https://mcp.gqlens.com"
+  }
+}
